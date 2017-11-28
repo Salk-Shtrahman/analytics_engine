@@ -291,7 +291,7 @@ def send_email(body, table, image1, image2, image3, strfrom, strto):
     smtp = smtplib.SMTP('smtp.gmail.com:587')
     smtp.ehlo()
     smtp.starttls()
-    smtp.login('ozhanaf@gmail.com', 'Theguy1993')
+    smtp.login('shtrahmanlabbot@mail.com', 'imabot1234')
     smtp.sendmail(strfrom, strto, msgRoot.as_string())
     smtp.quit()
 
